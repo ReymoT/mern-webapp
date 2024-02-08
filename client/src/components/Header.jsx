@@ -19,15 +19,15 @@ export default function Header() {
                 type="text"
                 placeholder="Search..."
                 className='bg-transparent focus:outline-none w-24 sm:w-64 md:44'/>
-                <FaSearch className='text-slate-600' />
+                <FaSearch className='text-teal-600' />
             </form>
             <ul className='flex gap-4'>
                 <Link to='/'>
-                <li className='hidden sm:inline text-slate-700 hover:underline'>Home</li>
+                <li className='hidden sm:inline text-teal-700 hover:underline'>Home</li>
                 </Link>
 
                 <Link to='/about'>
-                <li className='hidden sm:inline text-slate-700 hover:underline'>About</li>
+                <li className='hidden sm:inline text-teal-700 hover:underline'>About</li>
                 </Link>
                 <Link to='/profile'>
                     {currentUser ? (
